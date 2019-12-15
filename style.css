@@ -1,0 +1,126 @@
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			height: 400px;
+		}
+		#msg{
+			width: auto;
+			height: 20px;
+			background: #ccc;
+			position: relative;
+		}
+		.trumpet{
+			width: 17px;
+			height: 17px;
+			margin-left: 150px;
+			margin-top: 1px;
+		}
+		.tip{
+			width: 950px;
+			display: inline-block;
+			position: absolute;
+			left: 170px;
+			top: -2px;
+			overflow: hidden;
+		}
+		.tips{
+			width:auto;
+			display: inline-block;
+			color: red;
+			font-size: 12px;
+			position: relative;
+			left: 900px;
+		}
+		.slide{
+			margin: 10px auto;
+			width: 1200px;
+			height: 300px;
+			border: 1px solid #fff;
+			position: relative;
+			top: -310px;
+		}
+		.left{
+			cursor: pointer;
+			float: left;
+			width: 40px;
+			height: 60px;
+			background: red;
+			opacity: 0;
+			text-align: center;
+			line-height: 60px;
+			margin-top: 120px;
+			margin-left: 50px;
+			font-size: 30px;
+			color: #fff;
+		}
+		.right{
+			cursor: pointer;
+			float: right;
+			width: 40px;
+			height: 60px;
+			background: red;
+			opacity: 0;
+			text-align: center;
+			line-height: 60px;
+			margin-top: 120px;
+			margin-right: 50px;
+			font-size: 30px;
+			color: #fff;
+		}
+		#pages{
+			margin-top: 260px;
+			margin-left: 500px;
+		}
+		.page{
+			cursor: pointer;
+			display: inline-block;
+			width: 16px;
+			height: 16px;
+			margin: 10px;
+			background: #ccc;
+			border: 1px solid #ccc;
+			border-radius: 20px;
+			color: #666;
+			font-size: 13px;
+			text-align: center;
+			line-height: 16px;
+		}
+		.page1{
+			display: inline-block;
+			width: 16px;
+			height: 16px;
+			margin: 10px;
+			background: #f00;
+			border: 1px solid #f00;
+			border-radius: 20px;
+			color: #fff;
+			font-size: 13px;
+			text-align: center;
+			line-height: 16px;
+		}
+		.imgs{
+			margin: 10px auto;
+			width: 1200px;
+			height: 300px;
+			overflow: hidden;
+			position: relative;
+		}
+		.box{
+			width: 8400px;
+			height: 300px;
+			position: relative;
+			left: 0px;
+		}
+		img{
+			width: 1200px;
+			height: 300px;
+			position: relative;
+		}
+		.b{
+			width: 1200px;
+			height: 300px;
+			position: absolute;
+			overflow: hidden;
+		}
